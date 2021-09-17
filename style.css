@@ -1,0 +1,741 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "EB Garamond", serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color:rgb(255, 255, 255);
+  /* border: 2px solid red; */
+}
+html{
+  font-size: 62.5%;
+}
+body{
+  width:100%;
+  background-color: black;
+  height:100vh;
+}
+.header__img{
+  width:100%;
+  height:100vh;
+  background-image: url('images/ab782e797e9c9650b753ef01d7ba835a.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.header__text{
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   align-items: flex-end;
+   padding:35rem 10rem;
+}
+.header__img h1{
+  font-size:10rem;
+}
+.header__text p{
+  font-size:2rem;
+  width:50rem;
+  text-align: justify;
+  direction:rtl;
+}
+.bg__black{
+  background-color: black;
+  width:100%;
+  height:70vh;
+}
+.bg__black--text{
+  display: flex;
+  flex-direction: column;
+  margin-left:17rem;
+  padding-top:3rem;
+  justify-content: center;
+}
+.box{
+  background-color:#BF404C;
+  width:1rem;
+  height:15vh;
+  position: relative;
+  right:3rem;
+  top:10rem;
+}
+.border__text h1{
+  font-size: 4rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+.border__text span{
+  margin-left:1rem;
+  font-family: "EB Garamond", serif;
+  font-weight: bold;
+}
+.border__text{
+  display: flex;
+  align-items: center;
+  font-size: 4rem;
+}
+.bg__black--text p{
+  font-size:1.5rem;
+}
+.details{
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  padding:5rem 15rem;
+}
+.details p{
+  font-size:1.5rem;
+  width:20rem;
+}  
+.details h1{
+  font-size:5rem;
+  color:#BF404C;
+}
+.details1 img{
+  width:5rem;
+  height:7rem;
+} 
+
+.details--text{
+  margin-top:-7rem;
+  padding-left:7rem;
+}  
+.details--text span{
+  font-size:2.5rem;
+  font-family: "EB Garamond", serif;
+}  
+.galary{
+  background-color: black;
+  width:100%;
+  height:100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.galary__img img{
+  width:70rem;
+  height:60rem;
+}
+.galary__images1{
+  display: flex;
+}
+.galary__images1 img{
+  width:30rem;
+  height:30rem;
+}
+.galary__images2{
+  display: flex;
+}
+.galary__images2 img{
+  width:30rem;
+  height:30rem;
+}
+.box1{
+  width:30rem;
+  height:30rem;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+.box1 p{
+  font-size: 1.5rem;
+  border-bottom:2px solid #BF404C;
+  color:#BF404C;
+}
+.box2{
+  width:30rem;
+  height:30rem;
+  background-color:#BF404C;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+.box2 p{
+  font-size: 1.5rem;
+  text-align: center;
+}
+.section__icon{
+  display:flex;
+  margin-top:-25rem;
+  margin-left:20rem;
+}
+.section__img{
+  width:100%;
+  height:100vh;
+  background-image: url('images/580eb2ca10b3a07710558f6d61c5d677.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.section__icon h1{
+  font-family: "EB Garamond", serif;
+}
+.section__icon p{
+  font-size: 1.2rem;
+  width:30rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+.section__img::before{
+  content:"AUDI R8";
+  font-size: 25rem;
+  position: relative;
+  left:10rem;
+  color:rgba(146, 138, 138, 0.452);
+}
+.text{
+  margin-left:20rem;
+  width:60rem;
+}
+.text h1{
+  font-size: 4rem;
+  font-family: "EB Garamond", serif;
+}
+.text p{
+  font-size:1.7rem;
+  line-height: 1.5;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+.icon__box1{
+  margin-top:1rem;
+}
+.count{
+  width:100%;
+  height:30vh;
+  background-color: black;
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  padding:1rem 25rem;
+}
+.counting1 span{
+  font-size:4rem;
+  position:relative;
+  left:-2rem;
+  font-weight: bold;
+  color: rgba(128, 128, 128, 0.404);
+}
+.counting1 h1{
+  position:relative;
+  top:6rem; 
+  font-family: "EB Garamond", serif;
+  font-weight: bold;
+  font-size:4rem;
+}
+.counting1 h2{
+  position:relative;
+  top:6rem; 
+  left:2rem;
+  font-family: "EB Garamond", serif;
+  font-weight: bold;
+  font-size:4rem;
+}
+.counting1 h3{
+  position:relative;
+  top:6rem; 
+  left:2rem;
+  font-family: "EB Garamond", serif;
+  font-weight: bold;
+  font-size:4rem;
+}
+.counting1 p{
+  font-size: 1.5rem;
+  position:relative;
+  left:-1rem;
+}
+.red__car{
+  width:100%;
+  height:100vh;
+  background-image: url('images/96011bd2e51df531de8c1656f76e448b.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.349);
+  background-blend-mode: overlay;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.red__car h1{
+  font-size: 3rem;
+  margin:0 3rem;
+  font-family: "EB Garamond", serif;
+}
+.red__car p{
+  font-size:1.5rem;
+  width:40rem;
+  direction: rtl;
+  margin:3rem;
+}
+.center__red{
+  width:100%;
+  height:100vh;
+  background-image: url('images/b528e809cfc9d34e334581fa2a94329e.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.39);
+  background-blend-mode: overlay;
+  background-position: center;
+}
+.center__red{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding:0 20rem;
+  font-weight: bolder;
+  flex-wrap: wrap;
+}
+.center__text2{
+  direction: rtl;
+}
+.center__text h1{
+  font-size: 3rem;
+  font-family: "EB Garamond", serif;
+}
+.center__text p{
+  font-size: 1.5rem;
+}
+.center__text h2{
+  font-size:2rem;
+  border-bottom: 2px solid #BF404C;
+  color:#BF404C;
+  display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:468px){
+.header__text{
+   padding:35rem 1rem;
+}
+.header__img h1{
+  font-size:5rem;
+}
+.header__text p{
+  font-size:1.4rem;
+  width:40rem;
+}
+.bg__black{
+  background-color: black;
+  width:100%;
+  height:85vh;
+}
+.bg__black--text{
+  display: flex;
+  flex-direction: column;
+  margin-left:3rem;
+  justify-content: center;
+}
+.box{
+  background-color:#BF404C;
+  width:1rem;
+  height:12vh;
+  position: relative;
+  left:-1.5rem;
+  top:7rem;
+}
+.border__text h1{
+  font-size:1.5rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+.border__text span{
+  font-size:1.5rem;
+  margin-left:1rem;
+  font-family: "EB Garamond", serif;
+  font-weight: bold;
+}
+.border__text{
+  display: flex;
+  align-items: center;
+  font-size:2rem;
+}
+.bg__black--text p{
+  font-size:1rem;
+  width:40rem;
+}
+.details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-between;
+  padding:2rem 10rem;
+}
+.details p{
+  font-size:1rem;
+  width:20rem;
+}  
+.details h1{
+  font-size:4.5rem;
+  color:#BF404C;
+}
+
+.details1{
+  display: flex;
+} 
+.details1 img{
+  width:5rem;
+  height:5rem;
+} 
+
+.details--text{
+  padding-left:1rem;
+  padding-top:7rem;
+}  
+.details--text span{
+  font-size:2rem;
+  font-family: "EB Garamond", serif;
+}  
+.galary{
+  background-color: black;
+  width:100%;
+  height:107vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.galary__img img{
+  width:40rem;
+  height:20rem;
+}
+.galary__images1{
+  display: flex;
+}
+.galary__images1 img{
+  width:20rem;
+  height:20rem;
+}
+.galary__images2{
+  display: flex;
+}
+.galary__images2 img{
+  width:20rem;
+  height:20rem;
+}
+.box1{
+  width:20rem;
+  height:20rem;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+.box1 p{
+  font-size: 1.5rem;
+  border-bottom:2px solid #BF404C;
+  color:#BF404C;
+}
+.box2{
+  width:20rem;
+  height:20rem;
+  background-color:#BF404C;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+.box2 p{
+  font-size: 1.5rem;
+  text-align: center;
+}
+.section__icon{
+  display:flex;
+  flex-wrap: wrap;
+  margin-top:-10rem;
+  margin-left:3rem;
+}
+.section__img{
+  width:100%;
+  height:150vh;
+  background-image: url('images/580eb2ca10b3a07710558f6d61c5d677.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+.section__icon h1{
+  font-family: "EB Garamond", serif;
+}
+.section__icon p{
+  font-size: 1.2rem;
+  width:30rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+.section__img::before{
+  content:"AUDI R8";
+  font-size:10rem;
+  position: relative;
+  left:7rem;
+  color:rgba(146, 138, 138, 0.452);
+}
+.text{
+  margin-left:3rem;
+  width:30rem;
+}
+.text h1{
+  font-size:2.2rem;
+  width:30rem;
+  font-family: "EB Garamond", serif;
+}
+.text p{
+  font-size:1.2rem;
+  line-height: 1.5;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  width:33rem;
+}
+.icon__box1{
+  margin-top:1rem;
+}
+
+.count{
+  padding:1rem 7rem;
+}
+.counting1 span{
+  font-size:3rem;
+  left:-1rem;
+}
+.counting1 h1{
+  top:5rem; 
+  font-size:3rem;
+}
+.counting1 h2{
+  top:5rem; 
+  left:2rem;;
+  font-size:3rem;
+}
+.counting1 h3{
+  top:5rem; 
+  left:2rem;
+  font-size:3rem;
+}
+.red__car{
+  width:100%;
+  height:100vh;
+  background-image: url('images/96011bd2e51df531de8c1656f76e448b.jpeg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.red__car h1{
+  font-size: 3rem;
+  margin:0 3rem;
+  font-family: "EB Garamond", serif;
+}
+.red__car p{
+  font-size:1.5rem;
+  width:40rem;
+  direction: rtl;
+  margin:3rem;
+}
+.center__red{
+  padding:0 7rem;
+}
+
+}
+
+@media(max-width:430px){
+  .red__car p{
+    font-size:1.5rem;
+    width:35rem;
+    direction: rtl;
+    margin:3rem;
+  }
+}
+
+
+
+@media(max-width:440px){
+  .bg__black--text p{
+    width:35rem;
+  }
+  .bg__black--text h1{
+    font-size:1.3rem;
+    padding-top:.3rem;
+   }
+   .bg__black--text span{
+    font-size:1.3rem;
+   }
+}
+
+@media(max-width:450px){
+  .section__img::before{
+    content:"AUDI R8";
+    font-size:8rem;
+    position: relative;
+    left:7rem;
+    color:rgba(146, 138, 138, 0.452);
+  }
+  
+.count{
+  padding:1rem 5rem;
+}
+}
+
+
+
+
+
+@media(max-width:420px){
+  .header__text{
+     padding:35rem 1rem;
+  }
+  .header__img h1{
+    font-size:5rem;
+  }
+  .header__text p{
+    font-size:1.4rem;
+    width:25rem;
+  }
+  .bg__black--text p{
+    width:35rem;
+  }
+  .count{
+    padding:1rem 4rem;
+  }
+  .red__car p{
+    font-size:1.5rem;
+    width:35rem;
+    direction: rtl;
+  }
+  }
+  @media(max-width:412px){
+   .bg__black--text h1{
+    font-size:1.3rem;
+    padding-top:.3rem;
+   }
+   .bg__black--text span{
+    font-size:1.3rem;
+   }
+  }
+  @media(max-width:399px){
+    .galary__img img{
+      width:30rem;
+      height:20rem;
+    }
+    .galary__images1{
+      display: flex;
+    }
+    .galary__images1 img{
+      width:15rem;
+      height:15rem;
+    }
+    .galary__images2{
+      display: flex;
+    }
+    .galary__images2 img{
+      width:15rem;
+      height:15rem;
+    }
+    .box1{
+      width:15rem;
+      height:15rem;
+      background-color: black;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.3rem;
+    }
+    .box1 p{
+      font-size: 1rem;
+      border-bottom:2px solid #BF404C;
+      color:#BF404C;
+    }
+    .box2{
+      width:15rem;
+      height:15rem;
+      background-color:#BF404C;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size:1.2rem;
+      text-align: center;
+    }
+    .box2 p{
+      font-size: 1rem;
+      text-align: center;
+    }
+    .count{
+      padding:1rem 3rem;
+    }
+    .red__car p{
+      font-size:1.5rem;
+      width:35rem;
+      direction: rtl;
+    }
+  }
+@media(max-width:379px){
+  .bg__black--text p{
+    font-size:1rem;
+    width:30rem;
+  }
+  .details{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding:2rem 5rem;
+  }
+  
+.box{
+  background-color:#BF404C;
+  width:1rem;
+  height:14vh;
+  position: relative;
+  left:-1.5rem;
+  top:8rem;
+}
+.border__text h1{
+  font-size:1.2rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+.border__text span{
+  font-size:1.2rem;
+  margin-left:1rem;
+  font-family: "EB Garamond", serif;
+  font-weight: bold;
+}
+  .red__car h1{
+    padding-right:3rem;
+  }
+  .red__car p{
+    padding-right:3rem;
+    margin:3rem .1rem;
+  }
+
+}
